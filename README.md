@@ -15,6 +15,10 @@ Internal Storage | 256 GB (UFS 2.1)
 
 ![Tecno Pova 4 Pro](https://cdn-files.kimovil.com/default/0007/90/thumb_689601_default_big.jpg)
 
+![Tecno Pova 4 Pro2](https://cdn-files.kimovil.com/default/0007/90/thumb_689602_default_big.jpg)
+
+![Tecno Pova 4 Pro3](https://fdn2.gsmarena.com/vv/pics/tecno/tecno-pova4-pro-1.jpg)
+
 ### First img Test
 
 The tester only install `vendor_boot-LG8n-20230715.img` file to know if working.
