@@ -36,12 +36,13 @@ AB_OTA_PARTITIONS := \
     system_ext \
     product \
     vendor \
+    vendor_dlkm \
     odm \
+    odm_dlkm \
     vbmeta \
     vbmeta_system \
     vbmeta_vendor
-    
-    
+
 # Update engine
 PRODUCT_PACKAGES += \
     checkpoint_gc \
@@ -52,8 +53,14 @@ PRODUCT_PACKAGES += \
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/mtk_plpath_utils \
-    FILESYSTEM_TYPE_system=ext4 \
+    FILESYSTEM_TYPE_system=erofs \
     POSTINSTALL_OPTIONAL_system=true
+
+AB_OTA_POSTINSTALL_CONFIG += \
+    RUN_POSTINSTALL_vendor=true \
+    POSTINSTALL_PATH_vendor=bin/checkpoint_gc \
+    FILESYSTEM_TYPE_vendor=erofs \
+    POSTINSTALL_OPTIONAL_vendor=true
 
 # Boot control HAL - Bootctrl
 PRODUCT_PACKAGES += \
