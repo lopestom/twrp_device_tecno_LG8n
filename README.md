@@ -5,7 +5,7 @@ This branch android-12.1 has ***encrypt/decrypt*** files and option to more test
 ### Firmware version: LG8n-H891P-S-RU-230519V2407.zip -- LG8n-H891OPAeAf-S-GL-230519V1793
 files individually from tester.
 
-## Status
+## Device
 
 Specs [here](https://www.gsmarena.com/tecno_pova_4_pro-11925.php)
 Description | Specification
@@ -13,21 +13,17 @@ Description | Specification
 Shipped Android Version | 12
 Internal Storage | 256 GB (UFS 2.1)
 
-![Tecno Pova 4 Pro](https://cdn-files.kimovil.com/default/0007/90/thumb_689601_default_big.jpg)
-
 ![Tecno Pova 4 Pro2](https://cdn-files.kimovil.com/default/0007/90/thumb_689602_default_big.jpg)
 
-![Tecno Pova 4 Pro3](https://fdn2.gsmarena.com/vv/pics/tecno/tecno-pova4-pro-1.jpg)
-
-### First img Test
+### Status
 
 The tester only install `vendor_boot-LG8n-20230715.img` file to know if working.
 <details><summary>History - Click to open</summary>
 <p>
 The first test.
 
-### Some tests was made: 
-
+### First img Test
+Some tests was made: 
 * Initial DT: 2023-07-15
    Compiled img file 2023-07-15 and tested in 2023-07-16
 
@@ -47,6 +43,7 @@ The first test.
 ![TWRP Touch screen fixed](https://github.com/lopestom/)
 
 ![TWRP Encryption/Decryption fixed](https://github.com/lopestom/)
+
 </p>
 </details>
 
