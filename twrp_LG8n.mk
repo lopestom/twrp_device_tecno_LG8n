@@ -31,7 +31,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device specific configs.
-$(call inherit-product, $(DEVICE_PATH)/device.mk)
+$(call inherit-product, device/tecno/LG8n/device.mk)
 
 ## Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := LG8n
