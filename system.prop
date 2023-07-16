@@ -1,0 +1,36 @@
+# Fstab
+ro.postinstall.fstab.prefix=/system
+
+# USB MTP
+ro.sys.usb.storage.type=mtp
+
+# identity
+Build.BRAND=MTK
+ro.soc.manufacturer=Mediatek
+ro.mediatek.version.branch=alps-mp-s0.mssi1
+ro.vendor.tran.version.release=LG8n-H891OPAeAf-S-GL-230519V1793
+ro.vendor.mediatek.platform=MT6789
+ro.vendor.mtk_f2fs_enable=1
+ro.hardware.vulkan=mali
+ro.hardware.egl=meow
+
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
+
+# TEE & Gatekeeper & Keymaster
+ro.vendor.mtk_tee_gp_support=1
+ro.vendor.mtk_svp_on_mtee_support=2
+ro.vendor.tran.trans_pay_tee=1
+ro.hardware.paytrigger=trustonic
+ro.hardware.kmsetkey=trustonic
+ro.vendor.mtk_trustonic_tee_support=1
+ro.hardware.gatekeeper=trustonic
+
+# HideReflashTWRP
+ro.twrp.vendor_boot=true
+
+# Enable project quotas and casefolding for emulated storage without sdcardfs - SDCard replacement functionality
+external_storage.projid.enabled=1
+external_storage.casefold.enabled=1
+external_storage.sdcardfs.enabled=0
+
