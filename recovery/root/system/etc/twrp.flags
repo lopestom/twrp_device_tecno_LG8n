@@ -1,0 +1,89 @@
+#fstab file by lopestom for Tecno pova 4 Pro LG8n-H891OPAeAf-S-GL-230519V1793 - TECNO-S-64-ARMV82-230519V1167 - 230519V2407
+#<mnt_point>       <type>    <device>                            <mnt_flags and options>
+
+# Core Partitions
+/metadata           ext4      /dev/block/by-name/metadata              flags=backup=1;display="metadata"
+/data               f2fs      /dev/block/by-name/userdata            flags=fileencryption=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized,keydirectory=/metadata/vold/metadata_encryption,fsverity,
+
+# Common partition
+/boot               emmc      /dev/block/by-name/boot                flags=backup=1;display="Boot";flashimg=1;slotselect
+/vendor_boot        emmc      /dev/block/by-name/vendor_boot         flags=display="Vendor Boot";backup=1;flashimg=1;slotselect
+/dtbo               emmc      /dev/block/by-name/dtbo                flags=backup=1;display="Dtbo";flashimg=1;slotselect
+/mnt/vendor/persist      ext4      /dev/block/by-name/persist             flags=display="Persist"
+/persist_image      emmc      /dev/block/by-name/persist             flags=backup=1;display="Persist Image";flashimg=1
+/vbmeta             emmc      /dev/block/by-name/vbmeta              flags=display="vbmeta";backup=1;flashimg=1;slotselect
+/vbmeta_system      emmc      /dev/block/by-name/vbmeta_system       flags=backup=1;display="vbmeta_system";flashimg=1;slotselect
+/vbmeta_vendor      emmc      /dev/block/by-name/vbmeta_vendor       flags=backup=1;display="vbmeta_vendor";flashimg=1;slotselect
+
+# MediaTek partitions
+/lk1                emmc      /dev/block/by-name/lk1                 flags=backup=1;display="Bootloader (lk1)";flashimg=1
+/bootloader2        emmc      /dev/block/by-name/bootloader2         flags=backup=1;display="Bootloader (lk2)";flashimg=1
+/misc               emmc      /dev/block/by-name/misc                flags=display="misc";backup=1;flashimg=1
+/para               emmc      /dev/block/by-name/para                flags=display="para";backup=1;flashimg=1
+/logo               emmc      /dev/block/by-name/logo                flags=display="logo";backup=1;flashimg=1
+/expdb              emmc      /dev/block/by-name/expdb               flags=display="expdb";backup=1
+/seccfg             emmc      /dev/block/by-name/seccfg              flags=display="SecCfg";backup=1
+/boot_para          emmc      /dev/block/by-name/boot_para           flags=display="boot_para";backup=1
+/proinfo            emmc      /dev/block/by-name/proinfo             flags=display="Proinfo";backup=1
+
+# Non-Volatile (RAM | DATA | CFG)
+/mnt/vendor/nvcfg       ext4      /dev/block/by-name/nvcfg               flags=display="NvCfg";backup=1
+/mnt/vendor/nvdata      ext4      /dev/block/by-name/nvdata              flags=display="NvData";backup=1
+/nvram              emmc      /dev/block/by-name/nvram               flags=display="NvRam";backup=1;flashimg=1
+
+# Subscriber Identification Module (SIM)
+/mnt/vendor/protect_f      ext4      /dev/block/by-name/protect1            flags=display="Protect";backup=1
+/mnt/vendor/protect_s      ext4      /dev/block/by-name/protect2            flags=backup=1;subpartitionof=/protect_f
+
+# Trusted Execution Environment (TEE) - trustzone
+/tee1               emmc      /dev/block/by-name/tee1                flags=display="Tee1";backup=1;flashimg=1
+/tee2               emmc      /dev/block/by-name/tee2                flags=display="Tee2";backup=1;flashimg=1
+
+# Factory Reset Protection (FRP)
+/persistent         emmc      /dev/block/by-name/frp                 flags=display="frp";backup=1
+
+# Firmware
+/gz1                emmc      /dev/block/by-name/gz1                  flags=display="gz1";backup=1
+/gz2                emmc      /dev/block/by-name/gz2                  flags=display="gz2";backup=1
+
+# Modem
+/md1img             emmc      /dev/block/by-name/md1img              flags=display="Modem";backup=1;flashimg=1;slotselect
+/md1dsp             emmc      /dev/block/by-name/md1dsp              flags=display="md1dsp";backup=1;slotselect
+/md1arm7            emmc      /dev/block/by-name/md1arm7             flags=display="md1arm7"
+/md3img             emmc      /dev/block/by-name/md3img              flags=display="md3img"
+
+# System Control Processor (SCP)
+/scp1              emmc      /dev/block/by-name/scp1               flags=display="scp1";backup=1
+/scp2              emmc      /dev/block/by-name/scp2               flags=display="scp2";backup=1
+
+# MediaTek Hardware Power Management (SSPM)
+/sspm1             emmc      /dev/block/by-name/sspm1              flags=display="sspm1"
+/sspm2             emmc      /dev/block/by-name/sspm2              flags=display="sspm2"
+/spmfw             emmc      /dev/block/by-name/spmfw              flags=display="spmfw"
+
+# Device Policy Manager
+/dpm1              emmc      /dev/block/by-name/dpm1               flags=display="dpm1"
+/dpm2              emmc      /dev/block/by-name/dpm2               flags=display="dpm2"
+
+# Other partitions
+/otp                emmc      /dev/block/by-name/otp                 flags=display="otp";backup=1
+/pi_img             emmc      /dev/block/by-name/pi_img              flags=display="pi_img"
+/mcupm1             emmc      /dev/block/by-name/mcupm1              flags=display="mcupm1"
+/mcupm1             emmc      /dev/block/by-name/mcupm2              flags=display="mcupm2"
+/tranfs             ext4      /dev/block/by-name/tranfs
+/tkv                emmc      /dev/block/by-name/tkv 
+
+# External-Devices (SDCARD | OTG)
+/external_sd    auto     /dev/block/mmcblk0p1  /dev/block/mmcblk0            flags=display="Micro_SDcard";storage;wipeingui;removable;fsflags="utf8"
+/usbotg         auto     /dev/block/sdd1       /dev/block/sdd                flags=display="Usb_Otg";storage;wipeingui;removable;fsflags="utf8"
+
+## Some partitions not need enable in this moment.
+#/dev/block/by-name/ccu /ccu emmc defaults defaults
+#/dev/block/by-name/vcp /vcp emmc defaults defaults
+#/dev/block/by-name/gpueb /gpueb emmc defaults defaults
+#/dev/block/by-name/mcf_ota /mcf_ota emmc defaults defaults
+#/dev/block/by-name/mvpu_algo1 /mvpu_algo1 emmc defaults defaults
+#/dev/block/by-name/mvpu_algo2 /mvpu_algo2 emmc defaults defaults
+#/dev/block/by-name/apusys1 /apusys1 emmc defaults defaults
+#/dev/block/by-name/apusys2 /apusys2 emmc defaults defaults
+#/dev/block/by-name/odmdtbo /odmdtbo emmc defaults defaults
