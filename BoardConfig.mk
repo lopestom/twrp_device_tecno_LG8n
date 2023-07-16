@@ -218,14 +218,13 @@ TW_INCLUDE_LIBRESETPROP :=true
 #TW_INCLUDE_REPACKTOOLS := true
 
 # TWRP Configuration
-TW_DEFAULT_LANGUAGE := en
+TW_DEFAULT_LANGUAGE := ru
 TW_INPUT_BLACKLIST := hbtp_vm
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 100
 TW_DEVICE_VERSION := TECNO Pova 4 Pro_LG8n-V2407 - lopestom
 #TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone29/temp
-#TW_NO_HAPTICS := true  ## I see no need for vibration.
 TW_EXTRA_LANGUAGES := false
 TARGET_USES_MKE2FS := true
 
