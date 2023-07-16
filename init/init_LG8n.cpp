@@ -48,13 +48,6 @@ void model_property_override(const std::string& device, const std::string& model
     property_override("ro.product.system_ext.model", model);
 }
 
-void vendor_load_properties()
-{
-    string prop_partitions[] = {"", "vendor.", "odm."};
-    for (const string &prop : prop_partitions)
-    {
-        property_override(string("ro.product.") + prop + string("brand"), "TECNO");
-        property_override(string("ro.product.") + prop + string("name"), "LG8n-GL");
-        property_override(string("ro.product.") + prop + string("device"), "TECNO-LG8n");
-        property_override(string("ro.product.") + prop + string("model"), "TECNO LG8n");
-    }
+void vendor_load_properties() {
+    model_property_override("TECNO-LG8n", "TECNO LG8n");
+}
