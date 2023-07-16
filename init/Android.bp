@@ -5,10 +5,11 @@ cc_library_static {
     ],
     cflags: [
         "-Wall",
+//      "-DBUILD_FOR_CMI",
     ],
     static_libs: [
         "libbase",
     ],
-    srcs: ["init_LG8n.cpp"],
+    srcs: ["libinit_LG8n.cpp"],
     recovery_available: true,
 }
