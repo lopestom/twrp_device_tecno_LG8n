@@ -18,13 +18,13 @@ Internal Storage | 256 GB (UFS 2.1)
 ### Status
 
 The tester only install `vendor_boot-LG8n-20230715.img` file to know if working.
-<details><summary>History - Click to open</summary>
-<p>
 The first test was made by tester. Need `Reboot System` to TWRP know partitions and informations.
 After that so device rebooted to TWRP and now can encrypt/decrypt correctlly.
-
-### First img Test
+<details><summary>History - Click to open</summary>
+<p>
 Some tests was made: 
+### First img Test
+
 * Initial DT: 2023-07-15
    Compiled img file 2023-07-16 and tested in 2023-07-17
 
@@ -32,10 +32,11 @@ Some tests was made:
   - Status: booted??
   - [X] booted
 
-   - vendor_boot-LG8n-20230715.img => Working?? Not working?
+- vendor_boot-LG8n-20230715.img => Working?? Not working?
   - [?] Working
   - [X] Issues
 
+* In some folders have files with my avatar name for people know Who create this TWRP and for others guys that PORting that img file knew who is the real compilator. So i think he not know about that files but the real compilator can know if he used the img file.
 </p>
 </details>
 
