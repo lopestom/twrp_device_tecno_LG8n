@@ -93,6 +93,6 @@ jobs:
        GITHUB_TOKEN: ${{ secrets.TEST }}
       with:
        tag_name: Tecno_Pova_4_Pro-LG8n
-       name: TWRP370_12
+       name: TWRP370_12-WIP
        files: | 
          twrp/out/target/product/LG8n/*boot*.img
