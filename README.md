@@ -1,4 +1,6 @@
-# TWRP device tree for Tecno Pova 4 Pro (LG8n) - MT6789 - A12 
+## After the twrp-12 branch has TWRP started in the device so WIP branch is for solving some issues.
+
+### TWRP device tree for Tecno Pova 4 Pro (LG8n) - MT6789 - A12 
 
 This branch android-12.1 has ***encrypt/decrypt*** files and option to more test with that. 
 
