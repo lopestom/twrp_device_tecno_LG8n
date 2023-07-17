@@ -224,7 +224,7 @@ TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 100
 TW_DEVICE_VERSION := Tecno Pova 4 Pro_LG8n-V2407 - lopestom
 #TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
-TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone29/temp
+TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone6/temp
 TW_EXTRA_LANGUAGES := false
 TARGET_USES_MKE2FS := true
 
@@ -234,7 +234,7 @@ TW_NO_SCREEN_BLANK := true
 TW_HAS_MTP := true
 
 # Vibrator
-TW_LOAD_VENDOR_MODULES := "aw862xx_haptic.ko"
+TW_LOAD_VENDOR_MODULES := "aw862xx_haptic.ko aw8622x_haptic.bin aw8624_haptic.bin focaltech_ts_fw_0.bin novatek_ts_fw.bin novatek_ts_fw_144.bin novatek_ts_fw_jdi.bin novatek_ts_fw_tm.bin"
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/default"
 
