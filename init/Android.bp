@@ -10,6 +10,6 @@ cc_library_static {
     static_libs: [
         "libbase",
     ],
-    srcs: ["libinit_LG8n.cpp"],
+    srcs: ["init_LG8n.cpp"],
     recovery_available: true,
 }
