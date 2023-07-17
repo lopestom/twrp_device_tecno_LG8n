@@ -20,19 +20,21 @@ Internal Storage | 256 GB (UFS 2.1)
 The tester only install `vendor_boot-LG8n-20230715.img` file to know if working.
 <details><summary>History - Click to open</summary>
 <p>
-The first test.
+The first test was made by tester. Need `Reboot System` to TWRP know partitions and informations.
+After that so device rebooted to TWRP and now can encrypt/decrypt correctlly.
 
 ### First img Test
 Some tests was made: 
 * Initial DT: 2023-07-15
-   Compiled img file 2023-07-15 and tested in 2023-07-16
+   Compiled img file 2023-07-16 and tested in 2023-07-17
 
 - MT6789 - A12
   - Status: booted??
-  - [?] booted
+  - [X] booted
 
    - vendor_boot-LG8n-20230715.img => Working?? Not working?
   - [?] Working
+  - [X] Issues
 
 </p>
 </details>
@@ -40,9 +42,21 @@ Some tests was made:
 <details><summary>TWRP Pictures - Click to open</summary>
 <p>
 
-![TWRP Touch screen fixed](https://github.com/lopestom/)
+![Menu](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-17-06-15-08-046.jpg)
 
-![TWRP Encryption/Decryption fixed](https://github.com/lopestom/)
+![Mount](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-17-06-17-45-782.jpg)
+
+![Backup](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-17-06-18-45-942.jpg)
+
+![Mount MicroSD](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-17-06-19-03-759.jpg)
+
+![Backup Data](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-17-16-47-55-514.jpg)
+
+![Restore Data](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-17-16-48-37-622.jpg)
+
+![Restore Process](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-17-16-49-10-154.jpg)
+
+![Restore Completed](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-17-16-49-44-810.jpg)
 
 </p>
 </details>
