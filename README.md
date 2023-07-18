@@ -19,22 +19,24 @@ Internal Storage | 256 GB (UFS 2.1)
 
 ### Status
 
-The tester only install `vendor_boot-LG8n-20230715.img` file to know if working.
+The tester only install `vendor_boot-LG8n-20230717.img` file to know if working.
 <details><summary>History - Click to open</summary>
 <p>
-The first test.
+Some tests was made:
 
-### First img Test
-Some tests was made: 
+### Second img Test
+
 * Initial DT: 2023-07-15
-   Compiled img file 2023-07-15 and tested in 2023-07-16
+   Compiled img file 2023-07-16 and tested in 2023-07-17
 
 - MT6789 - A12
   - Status: booted??
-  - [?] booted
+  - [X] booted
 
    - vendor_boot-LG8n-20230715.img => Working?? Not working?
-  - [?] Working
+  - [X] Working
+  - [X] CPU/temperature not show
+  - [X] Vibrator module not work
 
 </p>
 </details>
