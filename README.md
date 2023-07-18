@@ -35,7 +35,7 @@ Some tests was made:
 
    - vendor_boot-LG8n-20230715.img => Working?? Not working?
   - [X] Working
-  - [X] CPU/temperature not show
+  - [X] CPU/temperature correct
   - [X] Vibrator module not work
 
 </p>
@@ -44,9 +44,7 @@ Some tests was made:
 <details><summary>TWRP Pictures - Click to open</summary>
 <p>
 
-![Backup](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n_V2407/IMG_2023-07-18-18-34-28-764-WIP.jpg)
-
-![Restore](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n_V2407/IMG_2023-07-18-18-34-03-829-WIP.jpg)
+![Backup](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n_V2407/IMG_2023-07-18-18-34-28-764-WIP.jpg) ![Restore](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n_V2407/IMG_2023-07-18-18-34-03-829-WIP.jpg)
 
 ![Menu](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-17-23-20-01-920-TWRP-1.jpg)
 
