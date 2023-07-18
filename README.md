@@ -44,6 +44,10 @@ Some tests was made:
 <details><summary>TWRP Pictures - Click to open</summary>
 <p>
 
+![Backup](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n_V2407/IMG_2023-07-18-18-34-28-764-WIP.jpg)
+
+![Restore](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n_V2407/IMG_2023-07-18-18-34-03-829-WIP.jpg)
+
 ![Menu](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-17-23-20-01-920-TWRP-1.jpg)
 
 ![Install zip](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-18-00-17-13-924-TWRP-1.jpg)
