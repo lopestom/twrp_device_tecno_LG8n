@@ -42,9 +42,11 @@ Some tests was made:
 <details><summary>TWRP Pictures - Click to open</summary>
 <p>
 
-![TWRP Touch screen fixed](https://github.com/lopestom/)
+![Menu](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-17-23-20-01-920-TWRP-1.jpg)
 
-![TWRP Encryption/Decryption fixed](https://github.com/lopestom/)
+![Install zip](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-18-00-17-13-924-TWRP-1.jpg)
+
+![Install img](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4_Pro-LG8n/IMG_2023-07-18-00-55-29-230-TWRP-1.jpg)
 
 </p>
 </details>
