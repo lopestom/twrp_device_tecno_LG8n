@@ -111,7 +111,10 @@ on property:twrp.decrypt.done=true
     stop vendor.keymint-trustonic
     stop vendor.gatekeeper-1-0
 
+on property:twrp.modules.loaded=true
+    start vendor.vibrator-default
+
 on boot
     start health-hal-2-1
     setprop sys.usb.config adb
-    start vendor.vibrator-default
+
