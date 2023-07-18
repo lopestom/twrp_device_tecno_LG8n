@@ -233,7 +233,7 @@ TW_NO_SCREEN_BLANK := true
 TW_HAS_MTP := true
 
 # Vibrator
-#TW_LOAD_VENDOR_MODULES := "aw862xx_haptic.ko"
+TW_LOAD_VENDOR_MODULES := "aw862xx_haptic.ko"
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/default"
 
