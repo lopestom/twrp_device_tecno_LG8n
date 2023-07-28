@@ -13,7 +13,7 @@ Specs [here](https://www.gsmarena.com/tecno_pova_4-11926.php)
 Description | Specification
 -------:|:-------------------------
 Shipped Android Version | 12
-Internal Storage | 256 GB (UFS 2.1)
+Internal Storage | 128 GB (UFS 2.1)
 
 ![Tecno Pova 4](https://cdn-files.kimovil.com/default/0008/13/thumb_712874_default_big.jpg)
 
