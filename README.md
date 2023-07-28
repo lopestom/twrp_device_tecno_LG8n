@@ -4,7 +4,7 @@
 
 This branch android-12.1 has ***encrypt/decrypt*** files and option to more test with that. 
 
-### Firmware version: LG8n-H891P-S-RU-230519V2407.zip -- LG8n-H891OPAeAf-S-GL-230519V1793
+### Firmware version: LG7n-H892ABCD-S-GL-230519V1215 - TECNO-S-64-ARMV82-230519V877
 files individually from tester.
 
 ## Device
@@ -24,7 +24,7 @@ The tester only install `vendor_boot-LG7n-20230729.img` file to know if working.
 <p>
 Some tests was made:
 
-### Second img Test
+### First img Test
 
 * Initial DT: 2023-07-28
    Compiled img file 2023-07-28 and tested in 2023-07-29
