@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "libinit_LG8n",
+    name: "libinit_LG7n",
     header_libs: [
         "libbase_headers",
     ],
@@ -10,6 +10,6 @@ cc_library_static {
     static_libs: [
         "libbase",
     ],
-    srcs: ["init_LG8n.cpp"],
+    srcs: ["init_LG7n.cpp"],
     recovery_available: true,
 }
