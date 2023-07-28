@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/tecno/LG8n
+DEVICE_PATH := device/tecno/LG7n
 
 # Build Hack
 BUILD_BROKEN_DUP_RULES := true
@@ -41,10 +41,10 @@ TARGET_SUPPORTS_64_BIT_APPS := true
 TARGET_IS_64_BIT := true
 
 # Assertation
-TARGET_OTA_ASSERT_DEVICE := TECNO-LG8n,TECNO LG8n,LG8n-GL
+TARGET_OTA_ASSERT_DEVICE := TECNO-LG7n,TECNO LG7n,LG7n-GL
 
-# Bootloader lg8n_h891
-TARGET_BOOTLOADER_BOARD_NAME := TECNO-LG8n
+# Bootloader lg7n_h892
+TARGET_BOOTLOADER_BOARD_NAME := TECNO-LG7n
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -69,7 +69,7 @@ BOARD_BOOT_HEADER_VERSION := 4
 #  https://source.android.com/docs/core/architecture/partitions/vendor-boot-partitions?hl=pt-br#vendor-boot-partition-v4
 ## Info from Android Image Kitchen - UnpackImg Script - by osm0sis
 BOARD_HEADER_SIZE := 2128
-BOARD_DTB_SIZE := 182689
+BOARD_DTB_SIZE := 191249
 BOARD_DTB_OFFSET := 0x07c88000
 BOARD_FLASH_BLOCK_SIZE := 262144 ## (2*131072 - BOARD_KERNEL_PAGESIZE * 64).
 
@@ -174,13 +174,13 @@ TARGET_SCREEN_DENSITY := 480
 
 # Resolution
 TW_THEME := portrait_hdpi
-TARGET_SCREEN_WIDTH := 1080
-TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1640
 
 # Statusbar icons flags 720 x 1600
 TW_STATUS_ICONS_ALIGN := center
 #TW_CUSTOM_CPU_POS := 50
-TW_CUSTOM_CLOCK_POS := 610
+TW_CUSTOM_CLOCK_POS := 405
 #TW_CUSTOM_BATTERY_POS := 800
 
 # Treble
@@ -222,7 +222,7 @@ TW_DEFAULT_LANGUAGE := ru
 TW_INPUT_BLACKLIST := hbtp_vm
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 100
-TW_DEVICE_VERSION := Tecno Pova 4 Pro_LG8n-V2407 - lopestom
+TW_DEVICE_VERSION := Tecno Pova 4_LG7n-V1384 - lopestom
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone28/temp
 TW_EXTRA_LANGUAGES := false
 TARGET_USES_MKE2FS := true
@@ -233,9 +233,9 @@ TW_NO_SCREEN_BLANK := true
 TW_HAS_MTP := true
 
 # Vibrator
-TW_LOAD_VENDOR_MODULES := "aw862xx_haptic.ko"
-TW_SUPPORT_INPUT_AIDL_HAPTICS := true
-TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/default"
+#TW_LOAD_VENDOR_MODULES := "aw862xx_haptic.ko"
+#TW_SUPPORT_INPUT_AIDL_HAPTICS := true
+#TW_SUPPORT_INPUT_AIDL_HAPTICS_FQNAME := "IVibrator/default"
 
 TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_FUSE_EXFAT := true

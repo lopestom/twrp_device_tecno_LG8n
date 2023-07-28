@@ -8,11 +8,12 @@ ro.sys.usb.storage.type=mtp
 Build.BRAND=MTK
 ro.soc.manufacturer=Mediatek
 ro.mediatek.version.branch=alps-mp-s0.mssi1
-ro.vendor.tran.version.release=LG8n-H891OPAeAf-S-GL-230519V1793
+ro.vendor.tran.version.release=LG7n-H892ABCD-S-GL-230519V1215
 ro.vendor.mediatek.platform=MT6789
 ro.vendor.mtk_f2fs_enable=1
 ro.hardware.vulkan=mali
 ro.hardware.egl=meow
+ro.sf.lcd_density=320
 
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
