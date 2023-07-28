@@ -14,9 +14,9 @@ on:
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-12.1
-  DEVICE: LG8n
+  DEVICE: LG7n
   DT_LINK: https://github.com/lopestom/twrp_device_tecno_LG8n
-  DT_PATH: device/tecno/LG8n
+  DT_PATH: device/tecno/LG7n
   TARGET: vendorbootimage
   TZ: Asia/manila
 #  DT_BRANCH: WIP
@@ -73,7 +73,7 @@ jobs:
     - name: Checkout device tree
       uses: actions/checkout@v2
       with:
-       path: twrp/device/tecno/LG8n
+       path: twrp/device/tecno/LG7n
 
     - name: Set Swap Space
       uses: pierotofy/set-swap-space@master
@@ -84,15 +84,15 @@ jobs:
       run: |
        PATH=~/bin:$PATH
        cd twrp
-       export ALLOW_MISSING_DEPENDENCIES=true && source build/envsetup.sh &&lunch twrp_LG8n-eng && mka $TARGET -j$(nproc --all)
-       cp  out/target/product/LG8n/vendor_boot.img    out/target/product/LG8n/vendor_boot-LG8n-$(date +"%Y%m%d").img  
+       export ALLOW_MISSING_DEPENDENCIES=true && source build/envsetup.sh &&lunch twrp_LG7n-eng && mka $TARGET -j$(nproc --all)
+       cp  out/target/product/LG7n/vendor_boot.img    out/target/product/LG7n/vendor_boot-LG7n-$(date +"%Y%m%d").img  
              
     - name: Release recovery image
       uses: softprops/action-gh-release@v1
       env:
        GITHUB_TOKEN: ${{ secrets.TEST }}
       with:
-       tag_name: Tecno_Pova_4_Pro-LG8n_V2407
+       tag_name: Tecno_Pova_4-LG7n_V1384
        name: TWRP370_12-WIP
        files: | 
-         twrp/out/target/product/LG8n/*boot*.img
+         twrp/out/target/product/LG7n/*boot*.img
