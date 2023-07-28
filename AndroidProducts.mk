@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_LG8n.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_LG7n.mk
 
-COMMON_LUNCH_CHOICES := twrp_LG8n-eng
+COMMON_LUNCH_CHOICES := twrp_LG7n-eng
