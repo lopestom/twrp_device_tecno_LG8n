@@ -2,7 +2,6 @@ import /vendor/etc/init/tee.rc
 import /vendor/etc/init/trustonic.rc
 import /vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
 import /vendor/etc/init/android.hardware.security.keymint-service.trustonic.rc
-import /vendor/etc/init/vibrator-mtk-default.rc
 import /vendor/etc/init/vendor.mediatek.hardware.paytrigger@1.0-service.rc
 
 on init
