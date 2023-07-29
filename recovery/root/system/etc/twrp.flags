@@ -1,4 +1,4 @@
-#fstab file by lopestom for Tecno pova 4 Pro LG8n-H891OPAeAf-S-GL-230519V1793 - TECNO-S-64-ARMV82-230519V1167 - 230519V2407
+#fstab file by lopestom for Tecno pova 4 LG7n-H892ABCD-S-GL-230519V1215 - TECNO-S-64-ARMV82-230519V877 - V1384
 #<mnt_point>       <type>    <device>                            <mnt_flags and options>
 
 # Core Partitions
