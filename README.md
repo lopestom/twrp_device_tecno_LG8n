@@ -44,20 +44,16 @@ Some tests was made:
 <details><summary>TWRP Pictures - Click to open</summary>
 <p>
 
-![Backup](https://github.com/lopestom/) ![Restore](https://github.com/lopestom/)
+![Backup](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4-LG7n_V1384/Screenshot_2023-08-05-09-54-11.png) ![Restore](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4-LG7n_V1384/Screenshot_2023-08-05-09-55-00.png)
 
-![Menu](https://github.com/lopestom/)
-
-![Install zip](https://github.com/lopestom/)
-
-![Install img](https://github.com/lopestom/)
+![Menu](https://github.com/lopestom/twrp_device_tecno_LG8n/releases/download/Tecno_Pova_4-LG7n_V1384/Screenshot_2023-08-05-09-55-18.png)
 
 </p>
 </details>
 
 #### Big thanks to:
 
-- [Alexeyhalim from 4pda](https://4pda.to/forum/index.php?showuser=10895285)
+- [user from 4pda](https://4pda.to/forum/index.php?showuser=11403409)
 - [TeamWin](https://github.com/TeamWin) for TWRP SC.
 * TWRP version 3.7.0_12 *
 
